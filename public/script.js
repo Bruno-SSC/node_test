@@ -1,6 +1,6 @@
 function add_divs() {
   const main_sector = document.getElementById("main_sector");
-  main_sector.innerHTML = "";
+  clean_divs();
   let n_value = document.getElementById("n_value").value;
   if (n_value >= 6 || n_value < 0) return;
 
@@ -17,4 +17,9 @@ function add_divs() {
     new_div.appendChild(number_div);
     main_sector.appendChild(new_div);
   }
+}
+
+function clean_divs() {
+  let divs = Array.from(document.getElementsByClassName("repeatable_div"));
+  divs.forEach((el) => el.remove());
 }
