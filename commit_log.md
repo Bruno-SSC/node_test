@@ -5,4 +5,6 @@ commit 0
     I'm going to use them to style and update the page without reloading. This is the approach I've taken because ajax is something I've never used and regular post requests will refresh the page.
 commit 1
     added an environment variable for Render to use
-
+commit 2
+    I "finished it". However, I neglected a lot in terms of style and naming things. The classes are terrible, the css is messed, the IDs are messed, I just writed it to work, not to be good. 
+    For forther use, I would rewrite everything with BEM in css, more thoughtful IDs and cleaner HTML and Javascript.

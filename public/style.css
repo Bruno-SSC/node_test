@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.b_line {
+    border: 2px solid #a2a2a2;
+}
+
+.form,
+.main_sector {
+    position: relative;
+}
+
+.form_wrapper {
+    background-color: #bfbfbf;
+    width: 30%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+    background-color: #afabab;
+    width: 100%;
+}
+
+.form .div_amount {
+    background-color: #d9d9d9;
+}
+
+.form .div_amount_label {
+    color: #000;
+    font-size: 24px;
+}
+
+.form .div_amount_input {
+    padding-left: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: #d9d9d9;
+}
+
+.form .div_amount_input::placeholder {
+    color: #000;
+    font-size: 16px;
+}
+
+.main_sector {
+    background-color: #dfdfdf;
+    width: 70%;
+    height: 100%;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.repeatable_div {
+    width: 100%;
+    height: 100px;
+    background-color: #afabab;
+    display: flex;
+    align-items: center;
+}
+
+.repeatable_div .div_number {
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #cecccc;
+    display: grid;
+    place-items: center;
+
+    font-size: 32px;
+}
+
+.obj1,
+.obj3 {
+    position: absolute;
+    background-color: #bfbfbf;
+    padding: 30px;
+}
+
+.obj1 {
+    bottom: 0;
+    left: 0;
+}
+
+
+.obj3 {
+    bottom: 0;
+    right: 0;
+}

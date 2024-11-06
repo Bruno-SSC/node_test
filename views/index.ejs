@@ -5,14 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>node_test</title>
+    <link rel="stylesheet" href="/style.css">
     <script defer src="/script.js"></script>
 </head>
 
 <body>
-    <h1 id="n_title"></h1>
-    <div class="form">
-        <input onchange="change_number()" id="n_value" type="number" name="number">
-    </div>
+    <main>
+
+        <section class="form_wrapper b_line">
+            <div class="form">
+                <label class="div_amount_label" for="div_amount">Quantity</label>
+                <input min="0" max="5" id="n_value" onchange="add_divs()" class="div_amount_input b_line"
+                    name="div_amount" type="number" placeholder="type here">
+            </div>
+
+
+            <div class="obj1 b_line">
+                <h3>OBJ1</h1>
+            </div>
+        </section>
+
+
+        <section id="main_sector" class="main_sector b_line">
+            <!-- If you're curious about why class/id are the same, is because if I change classnames it won't break the logic -->
+
+            <div class="obj3 b_line">
+                <h3>OBJ3</h1>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
