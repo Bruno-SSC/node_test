@@ -8,3 +8,5 @@ commit 1
 commit 2
     I "finished it". However, I neglected a lot in terms of style and naming things. The classes are terrible, the css is messed, the IDs are messed, I just writed it to work, not to be good. 
     For forther use, I would rewrite everything with BEM in css, more thoughtful IDs and cleaner HTML and Javascript.
+commit 3
+    I capped the quantity value to 5 and added another event trigger.
