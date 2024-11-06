@@ -12,4 +12,6 @@ commit 3
     I capped the quantity value to 5 and added another event trigger.
 commit 4
     I didn't notice how I was erasing the "obj3" element to update the divs and fixed it.
+commit 5
+    limited characters the user can type to 1.
 
