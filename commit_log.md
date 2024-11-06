@@ -3,3 +3,6 @@ commit 0
     I setup the node environment, installed the express package and configured a simple server to send the index.ejs file for any get requests at root dir.
     I served the css and script files using express.static(). 
     I'm going to use them to style and update the page without reloading. This is the approach I've taken because ajax is something I've never used and regular post requests will refresh the page.
+commit 1
+    added an environment variable for Render to use
+

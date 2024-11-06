@@ -1,7 +1,7 @@
 import express from "express";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3030;
 
 app.use(express.static("public")); // this was suggested by chatGPT. I didn't know hoo
 app.set("view engine", "ejs");
